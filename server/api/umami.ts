@@ -11,7 +11,7 @@ export default async (req: IncomingMessage, res: ServerResponse) => {
     const { data, error, count } = await supabase
       .from("session")
       .select("created_at", { count: "exact" })
-      .eq("website_id", 2)
+      .eq("website_id", 1)
     // .gte("created_at", nintyDaysAgo)
 
     if (error) {
