@@ -2,8 +2,8 @@ import { defineNuxtPlugin } from "#app"
 
 export default defineNuxtPlugin(() => {
   const moduleOptions = {
-    websiteId: "",
-    scriptUrl: "",
+    websiteId: "649308a4-d3eb-4b86-b573-4e9ba761e443",
+    scriptUrl: "https://umami-tau-topaz.vercel.app/umami.js",
   }
   const options = { ...moduleOptions }
 
