@@ -86,8 +86,8 @@ setMeta("Wanna know more about me? ☺️ - Kimmy")
 <!--      <NuxtLink to="/project" class="button-next group mt-12">-->
 <!--        Project <IconArrow class="w-6 h-6 duration transition-all ml-2 group-hover:ml-3" />-->
 <!--      </NuxtLink>-->
-      <NuxtLink to="/blog" class="button-next group my-12">
-        Blog <IconArrow class="w-6 h-6 duration transition-all ml-2 group-hover:ml-3" />
+      <NuxtLink to="/medium" class="button-next group my-12">
+        Medium <IconArrow class="w-6 h-6 duration transition-all ml-2 group-hover:ml-3" />
       </NuxtLink>
     </div>
   </section>

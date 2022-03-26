@@ -72,7 +72,7 @@ setMeta("Welcome to Kimmy 🤩")
           <nav class="relative flex space-x-4 md:space-x-6 items-center text-base md:text-lg font-space">
             <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="/about">About</NuxtLink>
-<!--            <NuxtLink to="/project">Project</NuxtLink>-->
+            <NuxtLink to="/medium">Medium</NuxtLink>
             <NuxtLink to="/blog">Blog</NuxtLink>
 
             <Blob :class="navBlobClass" class="top-0 !ml-0 !w-8 !h-8 !blur-md !animate-none"></Blob>
