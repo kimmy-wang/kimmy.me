@@ -27,7 +27,7 @@ watch(
 )
 
 const { setMeta } = useCustomMeta()
-setMeta("My Blog 📒 - Kimmy ")
+setMeta("My Medium 📒 - Kimmy ")
 </script>
 
 <template>
@@ -36,12 +36,12 @@ setMeta("My Blog 📒 - Kimmy ")
       <h1 v-if="!data?.data && !error" class="font-bold text-5xl md:text-7xl text-center font-space">Medium</h1>
       <h1 v-else-if="error" class="font-bold text-5xl md:text-7xl text-center font-space">Error</h1>
       <div v-else>
-        <h1 class="font-bold text-5xl md:text-7xl text-center font-space">Blog</h1>
+        <h1 class="font-bold text-5xl md:text-7xl text-center font-space">Medium</h1>
         <div
             v-if="latestPost"
             class="mt-6 md:mt-12 mb-8 md:mb-20 rounded-4xl p-4 md:p-8 shadow-inset-white dark:shadow-none transform hover:scale-102 transition duration-300"
         >
-          <NuxtLink :to="`/blog/${latestPost.slug}`">
+          <a :href="`${latestPost.guid}`" target="_blank">
             <img
                 class="rounded-2xl md:rounded-4xl aspect-video object-cover"
                 :src="latestPost.thumbnail"
@@ -56,14 +56,14 @@ setMeta("My Blog 📒 - Kimmy ")
                 <li class="tag mr-2" v-for="tag in latestPost.categories">#{{ tag }}</li>
               </ul>
             </div>
-          </NuxtLink>
+          </a>
         </div>
         <ul class="md:grid grid-cols-2 gap-6">
           <li
               class="w-full mb-8 md:mb-12 rounded-4xl p-4 md:p-6 shadow-inset-white dark:shadow-none transform hover:scale-102 transition duration-300"
               v-for="post in otherPost"
           >
-            <NuxtLink :to="`/blog/${post.slug}`">
+            <a :href="`${post.guid}`" target="_blank">
               <img
                   class="w-full h-auto rounded-2xl md:rounded-3xl aspect-video object-cover"
                   :src="post.thumbnail"
@@ -79,7 +79,7 @@ setMeta("My Blog 📒 - Kimmy ")
                   <li class="tag mr-2" v-for="tag in post.categories">#{{ tag }}</li>
                 </ul>
               </div>
-            </NuxtLink>
+            </a>
           </li>
         </ul>
         <div class="flex justify-center">
