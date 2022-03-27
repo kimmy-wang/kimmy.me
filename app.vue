@@ -14,7 +14,7 @@ const navBlobClass = computed(() => {
       return "bg-yellow-200 dark:bg-yellow-500 left-2"
     case "about":
       return "bg-purple-200 dark:bg-purple-500  left-18  md:left-22"
-    case "project":
+    case "medium":
       return "bg-blue-200 dark:bg-blue-500  left-34  md:left-42"
     case "blog":
     case "blog-slug":
@@ -51,7 +51,7 @@ const blob3Class = computed(() => {
       return "bottom-1/5 right-1/20"
     case "about":
       return "bottom-1/20 -right-1/20 dark:bottom-2/5 dark:-right-1/20"
-    case "project":
+    case "medium":
       return "bottom-1/5 -right-1/5"
     default:
       return "bottom-1/20 -right-1/20"
