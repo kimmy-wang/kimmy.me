@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import IconArrow from "~icons/feather/arrow-right"
+
 import { Medium } from "~/interface/medium";
 import { store } from "@/store"
 
