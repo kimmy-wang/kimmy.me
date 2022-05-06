@@ -74,6 +74,7 @@ setMeta("Welcome to Kimmy 🤩")
             <NuxtLink to="/about">About</NuxtLink>
             <NuxtLink to="/medium">Medium</NuxtLink>
             <NuxtLink to="/blog">Blog</NuxtLink>
+            <a href="https://pangu.kimmy.me" target="_blank">Pangu</a>
 
             <Blob :class="navBlobClass" class="top-0 !ml-0 !w-8 !h-8 !blur-md !animate-none"></Blob>
           </nav>
