@@ -8,8 +8,8 @@
   "devDependencies": {
     "@iconify/json": "^2.0.30",
     "@types/axios": "^0.14.0",
-    "nuxt-windicss": "^2.2.2",
-    "nuxt3": "latest",
+    "nuxt-windicss": "^2.4.2",
+    "nuxt": "3.0.0-rc.4",
     "unplugin-icons": "^0.13.0"
   },
   "dependencies": {
