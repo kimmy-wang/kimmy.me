@@ -73,7 +73,7 @@ setMeta("Wanna know more about me? ☺️ - Kimmy")
             <h5>Contact</h5>
             <ul>
               <li>Qingdao, China</li>
-              <li>i@kimmy.me</li>
+              <li>hi@kimmy.me</li>
               <li class="text-gray-300 gap-4 text-3xl flex mt-4">
                 <a href="https://github.com/see" target="_blank">
                   <IconGithub />
