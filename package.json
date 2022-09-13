@@ -9,7 +9,7 @@
   "devDependencies": {
     "@iconify/json": "2.1.106",
     "@types/axios": "0.14.0",
-    "nuxt-windicss": "2.4.2",
+    "nuxt-windicss": "2.5.2",
     "nuxt": "3.0.0-rc.9",
     "unplugin-icons": "0.13.1"
   },
