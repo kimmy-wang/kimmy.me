@@ -18,13 +18,6 @@
     execa "^5.1.1"
     find-up "^5.0.0"
 
-"@antfu/utils@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.3.0.tgz#6306c43b52a883bd8e973e3ed8dd64248418bcc4"
-  integrity sha512-UU8TLr/EoXdg7OjMp0h9oDoIAVr+Z/oW9cpOxQQyrsz6Qzd2ms/1CdWx8fl2OQdFpxGmq5Vc4TwfLHId6nAZjA==
-  dependencies:
-    "@types/throttle-debounce" "^2.1.0"
-
 "@antfu/utils@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.4.0.tgz#df100ed9922d7359bf6c99083765b5207086b9a7"
@@ -456,22 +449,22 @@
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
-"@iconify/types@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-1.0.12.tgz#839f1f784b7030b94482d51996570f4dbd7d6796"
-  integrity sha512-6er6wSGF3hgc1JEZqiGpg21CTCjHBYOUwqLmb2Idzkjiw6ogalGP0ZMLVutCzah+0WB4yP+Zd2oVPN8jvJ+Ftg==
+"@iconify/types@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-1.1.0.tgz#dc15fc988b1b3fd558dd140a24ede7e0aac11280"
+  integrity sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==
 
-"@iconify/utils@^1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@iconify/utils/-/utils-1.0.23.tgz#71d34ffb79687e9430d73d938f5e258ae7fdb5da"
-  integrity sha512-Ktdmpe4mkMXQAnnDUz3s6s5aY/BeVPwHC1d5IhG1bgrWVNWFQNUj8cQPMbHpNCSD9MRC5yGxm9/PGPpOWGJLAg==
+"@iconify/utils@^1.0.33":
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/@iconify/utils/-/utils-1.0.33.tgz#9952ecae79e3b1685b83c58159c1d48959f6105a"
+  integrity sha512-vGeAqo7aGPxOQmGdVoXFUOuyN+0V7Lcrx2EvaiRjxUD1x6Om0Tvq2bdm7E24l2Pz++4S0mWMCVFXe/17EtKImQ==
   dependencies:
     "@antfu/install-pkg" "^0.1.0"
-    "@antfu/utils" "^0.3.0"
-    "@iconify/types" "^1.0.12"
-    debug "^4.3.3"
-    kolorist "^1.5.0"
-    local-pkg "^0.4.0"
+    "@antfu/utils" "^0.5.0"
+    "@iconify/types" "^1.1.0"
+    debug "^4.3.4"
+    kolorist "^1.5.1"
+    local-pkg "^0.4.1"
 
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
@@ -3085,7 +3078,7 @@ knitwork@^0.1.2:
   resolved "https://registry.yarnpkg.com/knitwork/-/knitwork-0.1.2.tgz#5447a81d8eaede57d236f864ec29b8dc2bc192bf"
   integrity sha512-2ekmY2S/VB3YGVhrIFadyJQpkjMFSf48tsXCnA+kjs4FEQIT+5FLyOF0No/X58z/2E/VaMyeJfukRoVT4gMsfQ==
 
-kolorist@^1.5.0, kolorist@^1.5.1:
+kolorist@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/kolorist/-/kolorist-1.5.1.tgz#c3d66dc4fabde4f6b7faa6efda84c00491f9e52b"
   integrity sha512-lxpCM3HTvquGxKGzHeknB/sUjuVoUElLlfYnXZT73K8geR9jQbroGlSCFBax9/0mpGoD3kzcMLnOlGQPJJNyqQ==
@@ -3137,7 +3130,7 @@ loader-utils@^2.0.0:
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
-local-pkg@^0.4.0, local-pkg@^0.4.1:
+local-pkg@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/local-pkg/-/local-pkg-0.4.1.tgz#e7b0d7aa0b9c498a1110a5ac5b00ba66ef38cfff"
   integrity sha512-lL87ytIGP2FU5PWwNDo0w3WhIo2gopIAxPg9RxDYF7m4rr5ahuZxP22xnJHIvaLTe4Z9P6uKKY2UHiwyB4pcrw==
@@ -4895,25 +4888,18 @@ unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
-unplugin-icons@0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.13.1.tgz#962286ee3ec78a4ac3d8c050229b1009e9a021bd"
-  integrity sha512-Y7ZOjTUvLdY4qUQNDo4OmkxjCh2coNbcAeWfFW66EZW7cJiBI6vU8j4cBAsyqUEwMdFL3q/kwowCRgD6BAaRyQ==
+unplugin-icons@0.14.9:
+  version "0.14.9"
+  resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.14.9.tgz#8ab967996032ad1bf8d99974340c850f09ff86a5"
+  integrity sha512-vPyVfNREH88dP6gszdaoGkAEFPpiScXj1A8eWN905jQgT53A3tsiPEiqJjCHOUVcsUaREt2JSudzumFOsCA78A==
   dependencies:
     "@antfu/install-pkg" "^0.1.0"
-    "@antfu/utils" "^0.5.0"
-    "@iconify/utils" "^1.0.23"
-    debug "^4.3.3"
+    "@antfu/utils" "^0.5.2"
+    "@iconify/utils" "^1.0.33"
+    debug "^4.3.4"
     kolorist "^1.5.1"
-    local-pkg "^0.4.1"
-    unplugin "^0.3.2"
-
-unplugin@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.3.2.tgz#5113b13b90df14f92e17ddafed9d465bb18d2ca6"
-  integrity sha512-5d0DMYNKZU+S9eZUiBfw6Co32eRg8myUgBPoWSqG/wDFCUE/WznfSsJnZWi1P9l69x4uLJqt2qVq1xW/AsXFrw==
-  dependencies:
-    webpack-virtual-modules "^0.4.3"
+    local-pkg "^0.4.2"
+    unplugin "^0.9.5"
 
 unplugin@^0.9.0, unplugin@^0.9.2, unplugin@^0.9.5:
   version "0.9.5"
