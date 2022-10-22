@@ -1,6 +1,5 @@
-import type { IncomingMessage, ServerResponse } from "http"
+import { defineEventHandler } from "h3";
 
-export default (req: IncomingMessage, res: ServerResponse, next: () => void) => {
-  res.setHeader("Cache-Control", "s-maxage=86400, stale-while-revalidate")
-  next()
-}
+export default defineEventHandler((event) => {
+  event.res.setHeader("Cache-Control", "s-maxage=86400, stale-while-revalidate")
+})
