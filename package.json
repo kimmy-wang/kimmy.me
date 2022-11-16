@@ -10,7 +10,7 @@
     "@iconify/json": "2.1.132",
     "@types/axios": "0.14.0",
     "nuxt-windicss": "2.5.3",
-    "nuxt": "3.0.0-rc.13",
+    "nuxt": "3.0.0-rc.14",
     "unplugin-icons": "0.14.13"
   },
   "dependencies": {
