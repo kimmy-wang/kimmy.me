@@ -3,7 +3,7 @@ export const useCustomMeta = () => {
     "Kimmy - Frontend Developer. I love building fun projects during my free time!"
 
   const setMeta = (title: string, desc = defaultDesc) => {
-    useMeta({
+    useHead({
       title,
       meta: [
         { charset: "utf-8" },

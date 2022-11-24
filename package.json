@@ -1,4 +1,5 @@
 {
+  "name": "kimmy.me",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
@@ -10,7 +11,7 @@
     "@iconify/json": "2.1.143",
     "@types/axios": "0.14.0",
     "nuxt-windicss": "2.5.5",
-    "nuxt": "3.0.0-rc.13",
+    "nuxt": "3.0.0",
     "unplugin-icons": "0.14.14"
   },
   "dependencies": {
