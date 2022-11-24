@@ -11,7 +11,7 @@
     "@types/axios": "0.14.0",
     "nuxt-windicss": "2.5.3",
     "nuxt": "3.0.0-rc.13",
-    "unplugin-icons": "0.14.13"
+    "unplugin-icons": "0.14.14"
   },
   "dependencies": {
     "@notionhq/client": "0.4.13",
