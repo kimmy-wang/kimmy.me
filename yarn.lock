@@ -593,10 +593,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.13.tgz#64e8825bf0ce769dac94ee39d92ebe6272020dfc"
   integrity sha512-+BoyIm4I8uJmH/QDIH0fu7MG0AEx9OXEDXnqptXCwKOlOqZiS4iraH1Nr7/ObLMokW3sOCeBNyD68ATcV9b9Ag==
 
-"@iconify/json@2.1.132":
-  version "2.1.132"
-  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-2.1.132.tgz#a78f23fb871164580a48cb99930babe6b90977d7"
-  integrity sha512-b2ddD44ufErLm18Aku0WNxKzFz1Rvtcb4rOoBtzOyQcttZUawQvE8e/wBHMLhaMRlEn0p4YlVOl6jjj0xmDYJg==
+"@iconify/json@2.1.143":
+  version "2.1.143"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-2.1.143.tgz#67c41474d6094d7e193ecc90c0f3cc9a99ac5708"
+  integrity sha512-atN7UAsuRgXkXE9MiOh59T2hIkN3ulE6GVbfZjKeYPYdyRpsAgFsLOAMjJ+u6jIzaiZn+rSVwx7m2gQG47sN0A==
   dependencies:
     "@iconify/types" "*"
     pathe "^0.3.0"
