@@ -8,7 +8,7 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@iconify/json": "2.1.149",
+    "@iconify/json": "2.1.152",
     "@types/axios": "0.14.0",
     "nuxt-windicss": "2.6.0",
     "nuxt": "3.0.0",
