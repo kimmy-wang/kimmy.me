@@ -503,13 +503,13 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.15.tgz#32c65517a09320b62530867345222fde7794fbe1"
   integrity sha512-lhz6UNPMDXUhtXSulw8XlFAtSYO26WmHQnCi2Lg2p+/TMiJKNLtZCYUxV4wG6rZMzXmr8InGpNwk+DLT2Hm0PA==
 
-"@iconify/json@2.1.152":
-  version "2.1.152"
-  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-2.1.152.tgz#35bf9819d045332e45841da3e578d6d78aa398cb"
-  integrity sha512-0aKAcK5Ciq4S7Fu4wXBYaRQgYeW4NL6bhcoUa2E1nm2b7uQ3d4FSMxHp6RReBXgUjWA7JgpyqgPEYIf36wkGGA==
+"@iconify/json@2.2.35":
+  version "2.2.35"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-2.2.35.tgz#1ad3f16241652be7775476d9c92a1e64d96417d3"
+  integrity sha512-x8la14O904XMHAw5lNPU36dEqIurckYNFG6SdeZ4o6AoZp8KvQSqciuAA9UA9zAVPED4W7oKKgA+zGR6afLPOA==
   dependencies:
     "@iconify/types" "*"
-    pathe "^0.3.0"
+    pathe "^1.0.0"
 
 "@iconify/types@*", "@iconify/types@^2.0.0":
   version "2.0.0"
@@ -3999,11 +3999,6 @@ pathe@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/pathe/-/pathe-0.2.0.tgz#30fd7bbe0a0d91f0e60bae621f5d19e9e225c339"
   integrity sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==
-
-pathe@^0.3.0:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/pathe/-/pathe-0.3.2.tgz#016345ed643027404d7a9ed8d1454ad997a1483a"
-  integrity sha512-qhnmX0TOqlCvdWWTkoM83wh5J8fZ2yhbDEc9MlsnAEtEc+JCwxUKEwmd6pkY9hRe6JR1Uecbc14VcAKX2yFSTA==
 
 pathe@^0.3.5:
   version "0.3.7"
