@@ -28,3 +28,4 @@ jobs:
           external_repository: kw214/kw214.github.io
           publish_branch: main
           publish_dir: ./dist
+          cname: kimmy.me
